@@ -5,6 +5,8 @@
  * @version 1.1
  * @invite https://discord.gg/yYJA3qQE5F
  * @authorId 359174224809689089
+ * @source https://github.com/unknown81311/attrAdder
+ * @updateUrl https://raw.githubusercontent.com/unknown81311/attrAdder/main/attrAdder.plugin.js
  */
 
 module.exports = class attrAdder {
