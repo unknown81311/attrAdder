@@ -37,7 +37,7 @@ module.exports = class attrAdder {
         }
         if(!document.querySelector('main.chatContent-a9vAAp[guild]')){
             if(location.href.indexOf('@me') > 0){
-                let userId = this.getDMFromUserId.getChannel(getLastSelectedChannelId.getChannelId()).recipients[0];
+                let userId = this.getDMFromUserId.getChannel(this.getLastSelectedChannelId.getChannelId()).recipients[0];
                 document.querySelector('main').setAttribute('guild', userId)
             }else{
                 try{let ids = window.location.pathname.match(/\d+/g).reduce((obj, el, index) => { obj[index === 0 ? 'guild' : 'channel'] = el; return obj; }, {})
