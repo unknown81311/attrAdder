@@ -2,7 +2,7 @@
  * @name attrAdder
  * @author unknown81311#6969
  * @description Adds attributes to elements, can be used for more features in themes.
- * @version 2
+ * @version 2.0.0
  * @invite https://discord.gg/yYJA3qQE5F
  * @authorId 359174224809689089
  * @source https://github.com/unknown81311/attrAdder
